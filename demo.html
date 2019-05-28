@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Layout</title>
+</head>
+<body>
+<div class="container" style = "height: auto">
+    <header class="row">
+        <div class = "shopping-mall">
+            <h1>Online shopping mall</h1>
+            <h5>The center point of the professional programming</h5>
+        </div>
+        <img class = "pull-right" src="https://www.nhonmy.com/wp-content/uploads/2018/09/shopping_cart.jpg" height="200" width="200"/>
+    </header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"> Trang chủ</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <liA><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Giới thiệu</a></liA>
+                    <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Liên hệ</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Góp ý</a> </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Hỏi đáp</a> </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Tài khoản <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Đăng nhập</a></li>
+                            <li><a href="#">Quên mật khẩu</a></li>
+                            <li><a href="#">Đăng ký thành viên</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Đăng xuất</a></li>
+                            <li><a href="#">Đổi mật khẩu</a></li>
+                            <li><a href="#">cập nhật hồ sơ</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Đơn hàng</a></li>
+                            <li><a href="#">Hàng đã mua</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Tiếng việt</a> </li>
+                </ul>
+                </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class = "row">
+        <article class="col-sm-9">
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            Iphone XS Max
+                        </h4>
+                    </div>
+                    <div class = "panel-body">
+                        <img src="https://product.hstatic.net/1000341717/product/ip-xsmax_grande.jpg" height="228" width="292"/></div>
+                    <div class = "panel-footer">
+                        $ 100.25
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="col-sm-3">
+            <div class = "poly-cart">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img class="col-sm-5" src="data:image/png;base64,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"/>
+                        <ul class="col-sm-7">
+                            <li>100 items</li>
+                            <li>$56.8</li>
+                            <li><a href="#">Xem giỏ hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form>
+                        <input placeholder="Keywords" class="form-control"/>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class = "glyphicon glyphicon-th-list"></span>
+                    <strong>Chủng Loại</strong>
+                </div>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Điện thoại di động</a>
+                    <a href="#" class="list-group-item">Máy tính xách tay</a>
+                    <a href="#" class="list-group-item">Máy tính để bàn</a>
+                    <a href="#" class="list-group-item">Quạt máy</a>
+                    <a href="#" class="list-group-item">Tivi</a>
+                    <a href="#" class="list-group-item">Tủ lạnh</a>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+    <footer class="panel panel-default">
+        <div class = "panel-heading text-center">
+            <p>CodeGym &copy; 2019</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
